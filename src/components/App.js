@@ -5,7 +5,7 @@ export default class App extends Component {
   render() {
     const stud = ["santosh", "princy", "nagaraj", "sweta", "ganesh"];
     return (
-      <div>
+      <div className="App">
         {stud.map((name, index) => (
           <Hello name={name} index={index} />
         ))}
